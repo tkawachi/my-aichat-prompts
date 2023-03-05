@@ -1,0 +1,8 @@
+description: 日本語に翻訳する
+messages:
+  - role: system
+    content: "次を日本語に翻訳せよ"
+  - role: user
+    content: $INPUT
+
+max_tokens: 2000

@@ -1,0 +1,8 @@
+description: ベトナム語に翻訳する
+messages:
+  - role: system
+    content: "Hãy dịch sang tiếng Việt"
+  - role: user
+    content: $INPUT
+
+max_tokens: 2000

@@ -1,0 +1,8 @@
+description: 英語に翻訳する
+messages:
+  - role: system
+    content: Translate the following into English
+  - role: user
+    content: $INPUT
+
+max_tokens: 2000
