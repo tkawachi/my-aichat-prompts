@@ -1,3 +1,4 @@
+description: 要約する
 messages:
   - role: system
     content: "次の内容を200文字程度で簡潔に要約しなさい"
