@@ -1,0 +1,6 @@
+description: 箇条書きでまとめる
+messages:
+  - role: system
+    content: 次の内容の重要な点を箇条書き5点以内で簡潔にまとめよ。
+  - role: user
+    content: $INPUT

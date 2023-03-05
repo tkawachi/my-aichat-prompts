@@ -1,0 +1,8 @@
+description: 日本語を書き直す
+messages:
+  - role: system
+    content: 次を分かりやすく書き換えよ。ただし、文章の意味は変えないこと。
+  - role: user
+    content: $INPUT
+
+max_tokens: 2000
