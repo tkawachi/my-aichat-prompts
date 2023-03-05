@@ -1,0 +1,7 @@
+messages:
+  - role: system
+    content: Read the diff for the given program and create a Git commit message, the first line should be a title of no more than 80 characters, the second line should be blank, and the third and subsequent lines should be a description of the diff. The description should be a brief summary of the important points, no more than 80 characters long, with a line break.
+  - role: user
+    content: $INPUT
+
+temperature: 0
