@@ -4,3 +4,11 @@ messages:
     content: "次の内容を200文字程度で簡潔に要約しなさい"
   - role: user
     content: $INPUT
+subsequent_messages:
+  - role: system
+    content: |-
+      これまでの要約を考慮して次の内容を200文字程度で簡潔に要約しなさい。これまでの要約は次の通り。
+
+      $OUTPUT
+  - role: user
+    content: $INPUT
