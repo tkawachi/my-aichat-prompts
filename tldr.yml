@@ -4,3 +4,11 @@ messages:
     content: 次の内容の重要な点を箇条書き5点以内で簡潔にまとめよ。
   - role: user
     content: $INPUT
+subsequent_messages:
+  - role: system
+    content: |-
+      これまでの要点を考慮して次の内容の重要な点を箇条書き5点以内で簡潔にまとめよ。これまでの要点は次の通り。
+
+      $OUTPUT
+  - role: user
+    content: $INPUT

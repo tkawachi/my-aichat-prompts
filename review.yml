@@ -14,7 +14,3 @@ messages:
       - 以上から100点満点で評価すると
   - role: user
     content: $INPUT
-
-temperature: 0
-# 比較的長い出力になるので max_tokens を増やす
-max_tokens: 1000
